@@ -1,0 +1,67 @@
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  
+    .ID-name,
+    .ID-job {
+        display: none;
+    }
+    
+    .job-info-detail {
+        
+        grid-template-columns:  repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);  
+        margin-top: 50px;
+        
+    }
+    .timeline,.hobby-list, .language-list, .skill-list {
+        height: 40rem;
+        
+     }
+
+    #certificate {
+        margin-top: 50px;
+    }
+     .certificate-figure {
+        display: inline-block;   
+    }
+  
+    .cer-prize {
+        padding-left: 0em;
+        padding-top: 1em;
+    }
+    .cer-detail {
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    
+    .grid-project {
+        font-size: 14px;
+    }
+    .project-title, .project-date {
+        padding: 12px 0px 12px 0px;
+    }
+    .explain-title {
+        width: 20%;
+    }
+    .explain-detail {
+        width: 70%;
+        padding: 12px 0px 12px 18px;
+    }
+    .project-date > .btn-year {
+        height: 24px;
+        width: 54px;
+    }
+    .project-date {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+    }
+    .ele-3 {
+        grid-column: 2/3;
+    }
+
+    .container-footer {
+        font-size: 2vw;
+    }
+   
+}
+

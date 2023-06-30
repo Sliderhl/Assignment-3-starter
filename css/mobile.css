@@ -1,0 +1,91 @@
+
+@media only screen and (max-width: 500px) {
+
+    header {
+        background-position: center;
+    }
+
+    #banner > h1 {
+        font-size: 22px;
+    }
+
+    .ID-name,
+    .ID-job {
+        display: none;
+    }
+
+   .navbar {
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    .row {
+        flex-direction: column;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    
+
+    .job-info-detail {
+        grid-template-columns: auto;
+        margin-top: 50px;  
+    }
+
+    #certificate {
+        margin-top: 50px;
+    }
+    .grid-certificate  {
+        grid-template-columns: 1fr;
+    }
+
+    .fig-1 {
+        border-right: none;
+        border-bottom: 2px solid #d6c08d ;
+    }
+
+    .certificate-figure {
+        display: inline-block;   
+    }
+  
+    .cer-detail {
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    
+    .fig-2 {
+        padding-top: 12px;
+        padding-left: 0px;
+    }
+
+
+    .grid-project {
+        grid-template-columns: 1fr;
+    }
+    .project-title, .project-date {
+        padding: 12px 0px 12px 0px;
+    }
+    .explain-title {
+        width: 20%;
+    }
+    .explain-detail {
+        width: 70%;
+        padding: 12px 0px 12px 18px;
+    }
+    .project-date > .btn-year {
+        height: 24px;
+        width: 54px;
+    }
+    .project-date {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .container-footer {
+        font-size: 2vw;
+    }
+   
+   
+}
+
